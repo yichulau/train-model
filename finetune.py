@@ -22,7 +22,7 @@ from peft import (
 )
 from transformers import LlamaForCausalLM, LlamaTokenizer
 
-from utils.prompter import Prompter
+from prompter import prompt as Prompter
 
 
 def train(
